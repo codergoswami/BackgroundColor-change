@@ -18,6 +18,7 @@
 | [`05-strategy-and-roadmap.md`](05-strategy-and-roadmap.md) | Verdict on the hypothesis, strategic options, the recommended two-track plan, stage-gated roadmap, KPIs, and the monthly meeting agenda | The actual consulting output — start here if you only read one file |
 | [`06-source-register.md`](06-source-register.md) | Every source with a URL and a verification grade | Checking any claim in this pack |
 | [`07-research-reconciliation.md`](07-research-reconciliation.md) | Merge of the second research pass: where both passes agree, errors to fix before external use, two newly-found Indian manufacturers, segment-by-segment purchasing logic, the hydrogen insight, and the revised three-rung entry ladder | Read alongside 04 and 05 — it revises conclusions in both |
+| [`08-supply-chain-sourcing.md`](08-supply-chain-sourcing.md) | Where Indian bellows makers buy their precision strip today: grade-tier logic, the domestic mill list, named likely import sources, the Alleima India finding, customs-data method with HS codes, price anchors, and the procurement questions to ask | Displacement planning — who you actually have to beat, and how to confirm it |
 
 ---
 
