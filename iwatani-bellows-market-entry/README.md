@@ -17,6 +17,7 @@
 | [`04-competitive-benchmarking.md`](04-competitive-benchmarking.md) | Indian bellows manufacturers plus the global incumbents you would be competing with or selling to | Competitive positioning and partner shortlisting |
 | [`05-strategy-and-roadmap.md`](05-strategy-and-roadmap.md) | Verdict on the hypothesis, strategic options, the recommended two-track plan, stage-gated roadmap, KPIs, and the monthly meeting agenda | The actual consulting output — start here if you only read one file |
 | [`06-source-register.md`](06-source-register.md) | Every source with a URL and a verification grade | Checking any claim in this pack |
+| [`07-research-reconciliation.md`](07-research-reconciliation.md) | Merge of the second research pass: where both passes agree, errors to fix before external use, two newly-found Indian manufacturers, segment-by-segment purchasing logic, the hydrogen insight, and the revised three-rung entry ladder | Read alongside 04 and 05 — it revises conclusions in both |
 
 ---
 
@@ -38,6 +39,11 @@
 - **Track B (option value, medium term):** build a position in India — fab spares and MRO first, then a converter partnership or joint venture for bellows manufacture, timed to Semicon 2.0 incentives and to Dholera and the OSAT cluster reaching steady-state volume.
 
 Full reasoning, risks and the stage-gated plan are in [`05-strategy-and-roadmap.md`](05-strategy-and-roadmap.md).
+
+**Two updates from the second research pass** (detail in [`07-research-reconciliation.md`](07-research-reconciliation.md)):
+
+- **Don't enter at semiconductor. Enter at mechanical seal bellows, then hydrogen and cryogenic, then semiconductor.** Mechanical seals is the segment where Indian sourcing is already strongest — large installed base in refineries, petrochemicals, fertiliser and power, with shutdown economics that make long import lead times unacceptable. And **hydrogen is where Iwatani has its strongest credibility of all**: its stainless line already carries hydrogen-resistant stainless steel and hydrogen-refuelling-station materials, and hydrogen is the group's flagship business. Each rung earns the credibility needed for the next.
+- **Two Indian manufacturers already work at the target specification.** Well Tech Metal Bellows (Vasai) claims 0.05–0.2 mm diaphragms in AM350, helium leak tested, for high-purity gas delivery and mass flow controllers; Fluidyne Engineers India (Mysuru) claims 0.05 mm diaphragms and UHV racetrack bellows. Both claims are directory-sourced and need auditing — but if they hold, **Indian demand for exactly this material already exists and is being met by imports.** They are now the top two customer-discovery targets.
 
 ---
 

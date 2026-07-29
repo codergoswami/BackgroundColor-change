@@ -10,8 +10,12 @@ Scope of this file: (1) Indian bellows manufacturers, assessed against the three
 
 ### 1.1 Summary matrix
 
+> **Revised after the second research pass.** Two companies — **Well Tech Metal Bellows** and **Fluidyne Engineers India** — were added, and they overturn this file's original conclusion that no Indian firm evidenced sub-0.1 mm edge-welded capability. See [`07-research-reconciliation.md`](07-research-reconciliation.md) §3 for the full assessment and the revised priority ranking.
+
 | Company | Location | Stainless | Precision-slit in-house | Welded bellows | Edge-welded (semiconductor type) | Semiconductor/UHV evidence | Grade |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| **Well Tech Metal Bellows (I)** | Vasai, Maharashtra | Yes — SS316/316L, **AM350**, Inconel 718/625, Hastelloy C-276, Alloy 20, Ti | No | **Yes — EWMB is the core line** | **Yes — 0.05–0.2 mm diaphragms** | **Yes — UHV chamber bellows; high-purity gas delivery; gas regulators/control panels; mass flow controllers. Helium leak tested** | **[U]** |
+| **Fluidyne Engineers India** | Mysuru, Karnataka | Yes — SS plus brass, copper, phosphor bronze, Inconel | No | **Yes** | **Yes — diaphragms at 0.05 mm and 0.10 mm** | **Yes — 4-inch UHV bellows; claimed non-circular racetrack UHV bellows.** Aerospace: 100+ parts delivered; EIL/DGQA/IRCLASS/PDIL/HAL/BHEL/NPCIL references | **[P]** |
 | **Bhastrik Mechanical Labs** | Chennai (Perungudi) | Yes | No evidence | **Yes** | **Yes — claims nesting-ripple, AM350, micro-plasma, 0.127–0.30 mm** | Not claimed for semiconductor; cites measuring/control devices and mechanical seals | **[U]** |
 | **Metallic Bellows (India) Pvt Ltd** | Sriperumbudur, SIPCOT Aerospace Park, Chennai | Yes | No | Yes ("welded bellows, hoses, accumulators") | Not evidenced | **Yes — "Vacuum, and Ultra-High Vacuum" listed among applications**; ISO 9001 + **AS9100**; EJMA testing | **[P]/[U]** |
 | **MB Metallic Bellows Pvt Ltd** | Oragadam, Chennai | Yes | No | Expansion joints | No | No — power, minerals, hydrocarbons, chemicals | **[P]** |
@@ -64,10 +68,10 @@ Scope of this file: (1) Indian bellows manufacturers, assessed against the three
 
 ### 1.3 What the Indian landscape adds up to
 
-1. **There is no semiconductor-qualified edge-welded bellows manufacturer in India today.** No Indian company was found evidencing the combination that defines this business: sub-0.1 mm diaphragms, cleanroom (ISO Class 5/6) welding and assembly, helium leak certification, UHV cleaning, RGA certification, and semiconductor OEM approvals.
-2. **India's bellows industry is oriented to expansion joints and automotive decouplers** — pressure and thermal-movement products for power, refining, cement, steel and vehicle exhaust. That is a different business with different economics.
-3. **The capability fragments exist but are not assembled.** Edge-welded technology (Bhastrik), aerospace quality systems and UHV claims (Metallic Bellows), UHV welding and leak testing to 10⁻¹² Torr·l/s (APT), precision welding plus cleanrooms for WFE OEMs (KASFAB), and thin-gauge precision rolling and slitting (Jindal, IUP Jindal). **Nobody has put them together.** That is the actual opportunity, and it is a systems-integration opportunity more than a materials one.
-4. **No Indian bellows maker was found doing its own precision slitting.** They buy strip. That confirms a merchant market exists for Track A inside India, even before considering exports.
+1. **Indian edge-welded capability at semiconductor gauges does exist — but it is unaudited, and "capability" is not the same as "qualified."** *(Revised.)* Well Tech claims 0.05–0.2 mm diaphragms in AM350 with helium leak testing and bellows for high-purity gas delivery, gas panels and mass flow controllers; Fluidyne claims 0.05 mm diaphragms, a 4-inch UHV bellows and racetrack geometry. What remains unevidenced anywhere in India is the *full* semiconductor package: ISO Class 5/6 cleanroom welding and assembly, UHV cleaning, RGA certification, and approvals from a semiconductor equipment OEM. **The gap is qualification infrastructure, not basic process capability.**
+2. **India's bellows industry is still predominantly oriented to expansion joints, mechanical seals and automotive decouplers** — and mechanical seals in particular is the segment where Indian sourcing is already strongest, which makes it the natural beachhead (see [`07-research-reconciliation.md`](07-research-reconciliation.md) §4).
+3. **The capability fragments exist but are not assembled.** Edge-welded at semiconductor gauge (Well Tech, Fluidyne, Bhastrik), aerospace and nuclear quality systems (Fluidyne, Metallic Bellows), UHV welding and leak testing to 10⁻¹² Torr·l/s (APT), precision welding plus cleanrooms for WFE OEMs (KASFAB), and thin-gauge precision rolling and slitting (Jindal, IUP Jindal). **Nobody has put them together.** That is the actual opportunity, and it is a systems-integration opportunity more than a materials one.
+4. **No Indian bellows maker was found doing its own precision slitting** — confirmed independently by both research passes. They buy strip, and the ones working in AM350 at 0.05–0.2 mm are almost certainly importing it. **That is the merchant market for Track A, and it is already being served by someone else today.**
 5. **Witzenmann is the clock on this opportunity.**
 
 ---
