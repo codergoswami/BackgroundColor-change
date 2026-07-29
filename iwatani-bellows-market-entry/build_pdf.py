@@ -35,6 +35,7 @@ DOCS = [
     ("09-market-research-bellows.md", "Bellows Market Research"),
     ("10-india-market-data.md", "India Market Data"),
     ("11-share-reconciliation.md", "Share Reconciliation"),
+    ("12-india-drivers-challenges.md", "India Drivers and Challenges"),
 ]
 
 CSS = """
@@ -179,6 +180,14 @@ def build(doc_files, out_name, title, subtitle, contents_note=""):
 
 if __name__ == "__main__":
     only = sys.argv[1] if len(sys.argv) > 1 else None
+
+    if only in (None, "12"):
+        build([("12-india-drivers-challenges.md", "India Drivers and Challenges")],
+              "12-india-drivers-challenges.pdf",
+              "India Growth Drivers<br>and Challenges",
+              "Demand drivers ranked by evidence, and challenges sorted by<br>"
+              "whether Iwatani can address them",
+              " Note: the 4.18% CAGR is IMARC's expansion-joints figure and the lowest of six available estimates.")
 
     if only in (None, "11"):
         build([("11-share-reconciliation.md", "Share Reconciliation")],

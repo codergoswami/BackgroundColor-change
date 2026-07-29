@@ -23,6 +23,8 @@
 | [`10-india-market-data.md`](10-india-market-data.md) | **India market data, 6 charts**: market size triangulated top-down and bottom-up from MCA company filings, CAGR, share of world, and addressable market by entry-ladder rung | The India numbers. Answers "how big is India and how fast is it growing" |
 | [`11-share-reconciliation.md`](11-share-reconciliation.md) | **3 charts.** Why India's expansion-joints share and bellows share differ: the two markets overlap rather than nest, the structural reason India indexes higher in heavy products, and a **correction** withdrawing the 5–10% expansion joints figure | Read before quoting any market share. Contains the denominator test to apply to all share claims |
 
+| [`12-india-drivers-challenges.md`](12-india-drivers-challenges.md) | **2 charts.** India's demand drivers ranked by evidence strength — refining, steel, gas, hydrogen, semiconductors, with government targets — and challenges sorted by whether Iwatani can address them | Building the "why India, why now" case, and knowing which obstacles are yours to solve |
+
 **PDF versions** are in [`pdf/`](pdf/) — `09-market-research-bellows.pdf`, `10-india-market-data.pdf`, and `Iwatani-Bellows-Full-Pack.pdf` (everything combined). Regenerate with `python3 build_pdf.py`.
 
 ---
