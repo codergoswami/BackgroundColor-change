@@ -38,6 +38,7 @@ DOCS = [
     ("12-india-drivers-challenges.md", "India Drivers and Challenges"),
     ("13-deck-number-check.md", "Deck Number Check"),
     ("14-value-chain-map.md", "Value Chain Map"),
+    ("15-slide-redesign.md", "Slide Redesign"),
 ]
 
 CSS = """
@@ -182,6 +183,14 @@ def build(doc_files, out_name, title, subtitle, contents_note=""):
 
 if __name__ == "__main__":
     only = sys.argv[1] if len(sys.argv) > 1 else None
+
+    if only in (None, "15"):
+        build([("15-slide-redesign.md", "Slide Redesign")],
+              "15-slide-redesign.pdf",
+              "Supply Chain Slide:<br>Critique and Redesign",
+              "Two fact corrections, nine structural fixes,<br>"
+              "and two drop-in replacement slides",
+              " Contains two company-name corrections that should be made before the slide is shown to the client.")
 
     if only in (None, "14"):
         build([("14-value-chain-map.md", "Value Chain Map")],

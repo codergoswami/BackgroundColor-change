@@ -29,6 +29,8 @@
 
 | [`14-value-chain-map.md`](14-value-chain-map.md) | **3 large landscape charts + full reference table.** Twelve stages from chrome ore to replacement bellows, naming global and Indian players at every stage, with the technical gate at each, plus an indicative margin-by-stage view | The industry structure reference. Use chart 29 for internal approval, 27 with Jindal, 28 with bellows makers |
 
+| [`15-slide-redesign.md`](15-slide-redesign.md) | **2 drop-in slides.** Critique and redesign of the client-facing supply chain map: two company-name corrections, nine structural fixes, a detailed 16:9 replacement and an executive version | Before the supply chain slide goes to the client |
+
 **PDF versions** are in [`pdf/`](pdf/) — `09-market-research-bellows.pdf`, `10-india-market-data.pdf`, and `Iwatani-Bellows-Full-Pack.pdf` (everything combined). Regenerate with `python3 build_pdf.py`.
 
 ---
