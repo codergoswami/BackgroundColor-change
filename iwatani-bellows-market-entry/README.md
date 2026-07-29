@@ -1,0 +1,58 @@
+# Iwatani Metals Dept. / Stainless Steel Division — Bellows & Precision-Slit Market Entry Study
+
+**Client:** Iwatani Corporation — Metals Department → Stainless Steel Division
+**Subject:** Evaluating a new business beyond stainless trading, leveraging the Jindal Stainless relationship, centred on bellows tube (precision-slit material) for semiconductor manufacturing equipment in India
+**Status:** Working document — to be updated at monthly internal meetings
+**Last updated:** July 2026
+
+---
+
+## How to read this pack
+
+| File | Contents | Use it for |
+| --- | --- | --- |
+| [`01-technical-primer.md`](01-technical-primer.md) | What bellows are, every bellows type, what precision slitting actually is, where each sits in the value chain, materials and grades | Getting everyone in the room to the same technical baseline |
+| [`02-market-sizing.md`](02-market-sizing.md) | Market size and growth for metal bellows and the semiconductor equipment demand driver, with source-quality warnings | Numbers for the business case — read the caveats before quoting any figure |
+| [`03-india-landscape.md`](03-india-landscape.md) | India's semiconductor programme, stainless industry position, precision-strip supply base, and vacuum-component ecosystem | Testing the "Make in India" leg of the hypothesis |
+| [`04-competitive-benchmarking.md`](04-competitive-benchmarking.md) | Indian bellows manufacturers plus the global incumbents you would be competing with or selling to | Competitive positioning and partner shortlisting |
+| [`05-strategy-and-roadmap.md`](05-strategy-and-roadmap.md) | Verdict on the hypothesis, strategic options, the recommended two-track plan, stage-gated roadmap, KPIs, and the monthly meeting agenda | The actual consulting output — start here if you only read one file |
+| [`06-source-register.md`](06-source-register.md) | Every source with a URL and a verification grade | Checking any claim in this pack |
+
+---
+
+## The short version
+
+**The original hypothesis is directionally interesting but mis-locates the customer.** Semiconductor bellows are consumed where *tools are built* (United States, Japan, Korea, Taiwan, China), not where *wafers are made*. India is building fabs and packaging plants, not wafer-fab-equipment factories. So Indian demand for slit-valve and wafer-lift bellows in the near term is spare-parts-scale, not new-build-scale.
+
+**Three findings change the shape of the opportunity:**
+
+1. **India already has genuine precision-slit capability**, so "few Indian companies can do precision slitting" is not accurate as stated. Jindal Stainless's own Hisar Specialty Products Division rolls precision strip down to **0.076 mm** and runs dedicated precision slitters, and IUP Jindal Metals & Alloys (a *different* Jindal group company) rolls **0.03–1.5 mm** and slits to **3.5 mm** width with deburred, rounded and chamfered edge options. The real gap is not slitting — it is **bellows-grade qualification**: precipitation-hardening grades such as AM350, fatigue-controlled fine grain structure, burr and edge specification, cleanliness, and lot traceability.
+
+2. **The binding constraint in India is the absence of a qualified bellows manufacturer**, not the absence of material. India has competent hydroformed-bellows and expansion-joint makers, and at least one company claiming edge-welded capability, but no evidence of a semiconductor-qualified edge-welded bellows supplier operating at volume with cleanroom assembly and helium leak certification.
+
+3. **Policy just moved in your favour, hard.** India's Semicon 2.0, approved 15 July 2026 with a ₹1,27,500 crore outlay, has a dedicated pillar for semiconductor **equipment, materials, chemicals and gases**, offering a flat incentive of **up to 30% of project cost**. That is the first time India has put capital subsidy behind exactly the layer of the chain this business would occupy.
+
+**Recommended reframe:** run two tracks in parallel rather than betting on Indian semiconductor bellows demand.
+
+- **Track A (revenue engine, near term):** qualify Jindal as a second-source mill for **bellows-grade precision-slit strip**, and sell it into the *existing global* bellows and vacuum-valve supply chain in Korea, Japan, Taiwan and Europe. Iwatani already slits precision stainless in Suzhou and Zhongshan and already handles stainless foil down to 8 µm, so this uses capability you have rather than capability you would have to build.
+- **Track B (option value, medium term):** build a position in India — fab spares and MRO first, then a converter partnership or joint venture for bellows manufacture, timed to Semicon 2.0 incentives and to Dholera and the OSAT cluster reaching steady-state volume.
+
+Full reasoning, risks and the stage-gated plan are in [`05-strategy-and-roadmap.md`](05-strategy-and-roadmap.md).
+
+---
+
+## Evidence standard used in this pack
+
+Every factual claim carries an inline source link. Sources are graded, because the quality range here is extreme — primary industry and government sources are solid, while the commercial market-research reports on bellows disagree with each other by more than 6x and should not be quoted externally without qualification.
+
+| Grade | Meaning |
+| --- | --- |
+| **[P] Primary** | Company's own website, brochure, annual report, investor deck, regulatory filing, or industry association / government publication |
+| **[C] Credible press** | Established business or trade press reporting a verifiable, attributable fact |
+| **[S] Secondary / commercial** | Paid market-research vendor press pages. Indicative direction only. Treated as unreliable for absolute values |
+| **[U] Unverified** | Trade directory or aggregator listing not confirmed by the company itself |
+
+Two things are explicitly **not** verified and are carried as assumptions from the client brief:
+
+- Iwatani's role as the Japan-market window for Jindal Stainless. No public documentation of this arrangement was found; it is taken as given from the brief.
+- Any statement about Jindal's willingness or internal roadmap to enter precipitation-hardening or bellows-grade strip. This must come from Jindal directly and is listed as an open question.
