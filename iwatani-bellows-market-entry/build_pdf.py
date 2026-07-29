@@ -36,6 +36,7 @@ DOCS = [
     ("10-india-market-data.md", "India Market Data"),
     ("11-share-reconciliation.md", "Share Reconciliation"),
     ("12-india-drivers-challenges.md", "India Drivers and Challenges"),
+    ("13-deck-number-check.md", "Deck Number Check"),
 ]
 
 CSS = """
@@ -180,6 +181,14 @@ def build(doc_files, out_name, title, subtitle, contents_note=""):
 
 if __name__ == "__main__":
     only = sys.argv[1] if len(sys.argv) > 1 else None
+
+    if only in (None, "13"):
+        build([("13-deck-number-check.md", "Deck Number Check")],
+              "13-deck-number-check.pdf",
+              "Deck Number Check",
+              "Verification of figures proposed for a client deck,<br>"
+              "with an internally consistent replacement set",
+              " One proposed figure does not reconcile and should not be used as a point estimate.")
 
     if only in (None, "12"):
         build([("12-india-drivers-challenges.md", "India Drivers and Challenges")],

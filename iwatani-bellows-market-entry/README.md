@@ -25,6 +25,8 @@
 
 | [`12-india-drivers-challenges.md`](12-india-drivers-challenges.md) | **2 charts.** India's demand drivers ranked by evidence strength — refining, steel, gas, hydrogen, semiconductors, with government targets — and challenges sorted by whether Iwatani can address them | Building the "why India, why now" case, and knowing which obstacles are yours to solve |
 
+| [`13-deck-number-check.md`](13-deck-number-check.md) | **2 charts.** Verification of figures proposed for a client deck, an internally consistent replacement set, suggested slide wording, and the list of withdrawn figures | **Read before any number goes on a slide** |
+
 **PDF versions** are in [`pdf/`](pdf/) — `09-market-research-bellows.pdf`, `10-india-market-data.pdf`, and `Iwatani-Bellows-Full-Pack.pdf` (everything combined). Regenerate with `python3 build_pdf.py`.
 
 ---
