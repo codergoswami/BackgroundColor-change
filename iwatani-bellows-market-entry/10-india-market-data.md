@@ -8,11 +8,13 @@ The India-specific companion to [`09-market-research-bellows.md`](09-market-rese
 | --- | --- | --- |
 | **India bellows / expansion joint market, FY2025** | **US$50–70 m** (≈ ₹435–610 crore) | Top-down and bottom-up converge |
 | **India share of global bellows market** | **~2.7%** (range 1.9–3.5%) | Modelled |
-| **India share of global *expansion joints* market** | **5–10%** | Research and Markets, stated directly |
+| **India share of global *expansion joints* market** | **1–5%** ⚠️ *corrected* | See [`11-share-reconciliation.md`](11-share-reconciliation.md) |
 | **India CAGR — vendor consensus** | **6.9–8.3%** | 6Wresearch, Persistence, Research and Markets |
 | **India CAGR — conservative view** | **4.2–5.5%** | IMARC, Future Market Insights |
 | **India CAGR — observed at precision specialists, FY24→FY25** | **+23% to +37%** | MCA-derived company filings |
 | **World CAGR for comparison** | 5.2–6.9% | Vendor consensus |
+
+> ⚠️ **Correction applied.** An earlier version of this file quoted Research and Markets' claim that "India holds 5–10% of the global expansion joints market." That figure does not survive cross-checking — it implies a global expansion joints market of only US$0.7–1.4bn, whereas four other vendors put it at US$3.7–7.2bn. The corrected range is **1–5%**. Full working in [`11-share-reconciliation.md`](11-share-reconciliation.md). The bellows share of ~2.7% and the absolute India market size of US$50–70m are unaffected, because neither was derived from that claim.
 
 So: **India is roughly 2–3% of the world bellows market and growing meaningfully faster than it** — but the interesting number is not the market CAGR at all. It is that the small precision manufacturers are growing at 23–37% while the large commodity incumbent grows at 4%. That is where the opportunity actually is.
 
@@ -41,7 +43,7 @@ Unlike the world market, India **does** have dedicated published research — bu
 | Vendor | Base year | Value | Forecast | CAGR | Extra detail published |
 | --- | --- | --- | --- | --- | --- |
 | **Persistence Market Research** | 2026 | **US$91.9 m** (US$60.5 m in 2020) | US$158.5 m by 2033 | **8.1%** | West India 32% share; axial joints ~35%; metallic single expansion joints ~18%; incremental opportunity US$66.6 m |
-| **Research and Markets** | 2024 | **US$72.32 m** | US$126.47 m by 2031 | **8.3%** | **"India currently holds 5%–10% share of the global expansion joints market"** |
+| **Research and Markets** | 2024 | **US$72.32 m** | US$126.47 m by 2031 | **8.3%** | Claims "India currently holds 5%–10% share of the global expansion joints market" — ⚠️ **this claim fails cross-checking, see [`11`](11-share-reconciliation.md)** |
 | **IMARC** | 2024 | **US$33.76 m** | US$50.26 m by 2033 | **4.18%** | Segments by product, material, application, end-use, and four Indian regions |
 
 All **[S]** grade. The 2024–26 spread is **2.7x** — much narrower than the 19x spread in the world market data, but still too wide to quote a single number from.
@@ -109,11 +111,11 @@ Two independent methods landing in the same zone is the strongest evidence avail
 | Comparison | India | World | India share |
 | --- | --- | --- | --- |
 | Bellows market (value) | US$50–70 m | US$1.2–2.6 bn | **1.9% – 3.5%**, mid **~2.7%** |
-| Expansion joints market | — | — | **5% – 10%** (Research and Markets, stated) |
+| Expansion joints market | US$72 m | US$3.7 – 7.2 bn | **1.0% – 5.1%** ⚠️ *corrected — see [`11`](11-share-reconciliation.md)* |
 | Stainless steel production | ~3.5 Mt | 64.2 Mt | ~6.2% (2021) |
 | Semiconductor equipment spend | fraction of RoW | US$135.1 bn | **<1%** |
 
-The pattern is consistent and diagnostic: **India's share rises as you move down the value chain and collapses as you move up it.** ~6% of stainless production, 5–10% of expansion joints, ~2.7% of bellows, under 1% of semiconductor equipment.
+The pattern is consistent and diagnostic: **India's share rises as you move down the value chain and collapses as you move up it.** Roughly 6% of stainless production, ~3% of expansion joints, ~2.7% of bellows, under 1% of semiconductor equipment. The gradient is real, though shallower than the uncorrected figures suggested.
 
 This is exactly why the recommended entry ladder in [`07-research-reconciliation.md`](07-research-reconciliation.md) starts at mechanical seals and industrial bellows rather than at semiconductors — you enter where India is strong, not where it is weakest.
 
@@ -203,7 +205,7 @@ Two readings, and they point in opposite directions. The 20.72% import CAGR says
 | Claim | Quotable? | Phrasing |
 | --- | --- | --- |
 | India bellows/expansion joint market ≈ US$50–70 m | **Yes, with method** | "Triangulated from company filings and three vendor estimates" |
-| India holds 5–10% of the global expansion joints market | **Yes** | Attribute to Research and Markets |
+| India holds 5–10% of the global expansion joints market | **No — withdrawn** | Fails cross-checking; implies a global market 3–5x below four other vendors. Use "roughly 1–5%" and cite the denominator problem |
 | India expansion joints growing at 8.1–8.3% | **Yes** | Attribute to Persistence / Research and Markets; note IMARC says 4.18% |
 | India bellows CAGR ~6.9% | **Yes, with caveat** | Attribute to 6Wresearch, single source |
 | India is ~2.7% of the global bellows market | **Yes, as an estimate** | "Our estimate; no published figure exists" |
@@ -211,6 +213,10 @@ Two readings, and they point in opposite directions. The 20.72% import CAGR says
 | Fluidyne +37%, Flexpert +23% FY24→FY25 | **Yes, with caveat** | Note small-base effects and single-year limitation |
 | India mechanical seals market US$5.4 bn | **Never** | Mobility Foresights figure exceeds the entire *global* mechanical seals market (US$3.8–7.4 bn per two other vendors). Not credible |
 | Any single precise India bellows number | **No** | Always give the range and the method |
+
+### Related
+
+[`11-share-reconciliation.md`](11-share-reconciliation.md) explains why the expansion joints share and the bellows share differ, works through the denominator problem, and documents the correction above.
 
 ### New sources introduced in this file
 
