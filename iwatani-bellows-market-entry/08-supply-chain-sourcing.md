@@ -1,10 +1,61 @@
 # 08 — Where Indian Bellows Makers Source Their Precision Strip
 
-**The question:** where do Well Tech, Fluidyne, Bhastrik and Metallic Bellows actually buy the thin precision stainless they stamp and weld?
+**The question:** where do Well Tech, Fluidyne, Bhastrik and Metallic Bellows actually buy the thin precision stainless they stamp and weld — locally, or imported?
 
-**The honest answer:** none of them publish it, and none will volunteer it. Material source is competitive information for a bellows maker — it is the difference between winning and losing a qualification, and a supplier who knows your source can be approached directly. Expect no public disclosure from any of the four.
+## THE ANSWER: both, and the split is by grade, not by preference
 
-But it is determinable, from three directions: **grade logic** (what cannot be bought in India must be imported), **customs records** (Indian import data is shipment-level and commercially available), and **direct questioning** (structured procurement conversations). This file covers all three, plus the one competitor finding that matters most.
+![Sourcing map](charts/22-sourcing-map.png)
+
+| What they buy | Source | Why |
+| --- | --- | --- |
+| **Austenitic 304 / 304L / 316 / 316L / 321 / 347, 0.10 mm and thicker** | **LOCAL** | Two Indian precision-strip mills cover these grades in this gauge band, and **both explicitly name bellows as a served application** |
+| **AM350 / AISI 633, 631 / 17-7PH, Inconel, Hastelloy, titanium** | **IMPORTED — no alternative** | **No Indian mill publishes any of these grades.** Not one |
+| **Sub-0.05 mm foil** | **IMPORTED** | Indian minimum is 0.03 mm (IUP Jindal) but effectively 0.10 mm for most work; global mills go to 0.010–0.015 mm |
+| **Ultra-tight tolerance work (±0.005 mm and below)** | **IMPORTED** | The only published Indian tolerance at 0.10 mm is ±0.020 mm; Alleima publishes ±0.001 mm |
+
+**So when Well Tech advertises edge-welded bellows in AM350 at 0.05–0.2 mm, that material is imported.** Almost certainly through a Mumbai stockist rather than direct from the mill, because a company of that size needs tens or low hundreds of kilograms of a given specification per year against mill minimums measured in tonnes.
+
+### The two Indian mills that genuinely serve bellows
+
+This is the most concrete finding in this file, and it was not obvious before.
+
+**IUP Jindal Metals & Alloys Ltd** (Ghaziabad, Jindal SAW group — *not* Jindal Stainless):
+- Thickness **0.03–1.5 mm**, width **3.5–630 mm**, capacity **22,000 tpa**
+- Grades: J-1, J-4, 304, 304L, 316, 316L, 317L, 321, 347 austenitic, plus Mumetal / Permimphy / Supermimphy magnetic alloys
+- Three Sendzimir mills with I2S **automatic gauge control**, two bright annealing lines, three Brodeur slitting lines with shimless tooling and computerised setting, **edge rounding machine**, tension leveller
+- Edge conditions: mill, slit, deburred, deburred + round, deburred + chamfered
+- **Its published application list includes "Flexi metal tubes / bellows"** ([brochure](https://jindalmetal.com/images/iup-brochure.pdf), [product page](https://jindalmetal.com/product-range/stainless-steel-manufacturers-in-india-2/cold-rolled-precision-stainless-steel-strips), [facilities](https://www.indiamart.com/iup-jindal-metals/infrastructure-and-facilities.html)) **[P]**
+
+**Quality Foils (India) Ltd** (Hisar, Haryana, cold rolling since 1982):
+- Thickness **0.10–4.00 mm**, width **20–710 mm**; slit edge from **5.0 mm**
+- Grades: 301, 304/L, 316L, 321, J4 and 200 series, in 2H / 2R / 2B finishes
+- ISO 9001 (TÜV SÜD); marketing offices Delhi, Mumbai, plus European representation
+- **Published thickness tolerance at 0.10 mm: ±0.020 mm**
+- **Its product listing explicitly includes "Metallic Bellows", "Bellows, metal, for instruments" and "Bellows for precision measuring instruments"** ([about](https://www.qualitygroup.in/qualityfoils/about-us/), [products](https://www.qualitygroup.in/qualityfoils/products/), [Kompass listing](https://www.kompass.com/z/ww/c/quality-foils-india-private-limited/in756895/)) **[P]**
+
+> **This changes the framing of the opportunity.** The gap is not that India lacks precision slitting — two mills do it and both already sell into bellows. The gap is **grade coverage and tolerance class.** Which means Iwatani's pitch to an Indian bellows maker is not "we can slit precisely" — they can already buy that locally. It is **"we can supply AM350 and 631 in thin gauge, at tight tolerance, in small lots, with traceability."** That is a materially different and much more defensible proposition.
+
+### Gauge is not the constraint — grade and tolerance are
+
+![Gauge capability comparison](charts/20-gauge-capability.png)
+
+Indian mills reach into the bellows diaphragm band on thickness. Where they fall short is tolerance class and alloy range. Quality Foils' **±0.020 mm at 0.10 mm gauge is ±20% of thickness**; Alleima publishes **±0.001 mm**. For a diaphragm that must survive millions of flex cycles, thickness scatter drives fatigue life directly, so that gap matters more than the headline gauge number.
+
+IUP Jindal has AGC fitted and claims "closest thickness tolerances" but publishes no figure — which is itself informative. **Getting IUP Jindal's actual tolerance table is a Gate 1 action**, because it determines whether Iwatani is competing against them or complementing them.
+
+### Grade availability, mill by mill
+
+![Grade availability matrix](charts/21-grade-availability.png)
+
+Every Indian mill covers the austenitic grades. **Not one publishes AM350, 631, Inconel, Hastelloy or titanium strip.** That red block is the import-dependent zone, and it is precisely where semiconductor, aerospace and high-cycle bellows material sits.
+
+---
+
+## Why none of them will simply tell you
+
+Material source is competitive information for a bellows maker — it is the difference between winning and losing a qualification, and a supplier who knows your source can be approached directly. Expect no public disclosure from any of the four.
+
+But it is determinable, from three directions: **grade logic** (what cannot be bought in India must be imported), **customs records** (Indian import data is shipment-level and commercially available), and **direct questioning** (structured procurement conversations). The rest of this file covers all three, plus the one competitor finding that matters most.
 
 ---
 
@@ -27,7 +78,9 @@ Likely sources, in rough order of probability:
 | **Alleima** | Sweden | Precision strip to **0.015 mm at ±0.001 mm tolerance**; spring strip programme explicitly includes **precipitation hardening steels and nickel alloys**; cites **"thermostat expansion bellows"** as an application. **Has an Indian company — see §3** | **[P]** [Alleima precision strip brochure](https://www.alleima.com/siteassets/documents/strip/precision_strip_steel_brochure_fin.pdf), [strip steel](https://www.alleima.com/en/products/strip-steel/) |
 | **ATI** | US | AM 350 / AM 350-MIL to ASTM A693, ASME SA-693, AMS 5548 | **[P]** [ATI](https://www.atimaterials.com/Products/am-350) |
 | **Hempel Special Metals** | UK/Europe | Service centre explicitly supplying **metallic bellows and expansion joint manufacturers**; nickel alloys, stainless and titanium from 0.05 mm, precision slit in-house | **[P]** [Hempel](https://www.hempel-metals.com/en/products/precision-slit-strip) |
+| **Lamineries Matthey** (Notz Metall AG) | Switzerland | Publishes AM350 (D347) **strip in coils at 0.010–0.500 mm thickness × 1.5–200.0 mm width**, thickness tolerance classes down to ±0.014 mm at 1.0 mm, width tolerance +0.2/−0.0 standard or **±0.1 mm on request**. One of the few mills publishing an AM350 dimensional envelope this precisely | **[P]** [Matthey AM350 data sheet](https://www.matthey.ch/fileadmin/user_upload/downloads/fichetechnique/EN/Inox-AM350_v25E.pdf) |
 | **Aperam Alloys Imphy / voestalpine Precision Strip / Waelzholz** | France / Sweden / Germany | European precision strip houses covering special alloys in thin gauge | Plausible, not confirmed |
+| **Aesteiron and other Mumbai stockists** | India (importers) | List AM350 / UNS S35000 in **strip, coil and foil**, with quoted "UNS S35000 price in Mumbai". **Not mills — importers.** Confirms an existing trader channel into India for this grade | **[U]** [aesteiron.com](https://www.aesteiron.com/alloym350.html) |
 | Chinese re-rollers | China | Openly market **"precision stainless steel strip for vacuum bellows"** at e.g. 0.11 × 79 mm 316L, 3 t MOQ, 20–30 day lead time | **[U]** [ss-strips.com](https://www.ss-strips.com/sale-36582674-flexible-ss316l-cold-rolled-precision-stainless-steel-strip-for-vacuum-bellows-0-11-79mm.html) |
 
 **Read this carefully:** Ulbrich, UPM and TOKKIN all name *bellows* as the lead application for AM350 precision strip. These are not general suppliers who happen to stock the grade — they are the bellows-strip trade. If an Indian bellows maker is running AM350, one of this group is almost certainly upstream, directly or through a stockist.
@@ -39,8 +92,8 @@ Indian domestic sources, concentrated in a single cluster:
 
 | Mill | Location | Capability | Grade |
 | --- | --- | --- | --- |
-| **IUP Jindal Metals & Alloys** | Ghaziabad (Jindal SAW group) | **0.03–1.5 mm**, width **3.5–620 mm**, mill/slit/**deburred/round/chamfered** edges, 200/300/400 series, 20-Hi mill with AGC. Also soft magnetic nickel alloys. Serves **flexible tubes and capillary tubes** | **[P]** [brochure](https://jindalmetal.com/images/iup-brochure.pdf) |
-| **Quality Foils (India) Ltd** | **Hisar, Haryana** | Cold rolling plant since **1982**; "high precision Stainless Steel Strips and Coils"; 300 and 200 series; ISO 9001; BIS IS 6911 licence. Notably the group **also makes stainless flexible hose and tube** | **[P]** [qualitygroup.in](https://qualitygroup.in/) |
+| **IUP Jindal Metals & Alloys** | Ghaziabad (Jindal SAW group) | **0.03–1.5 mm**, width **3.5–630 mm**, **22,000 tpa**; mill/slit/**deburred/round/chamfered** edges plus a dedicated edge-rounding machine; grades J-1, J-4, 304, 304L, 316, 316L, 317L, 321, 347 plus Mumetal/Permimphy magnetic alloys; three Sendzimir mills with I2S AGC; three Brodeur slitting lines with shimless tooling. **Application list explicitly includes "Flexi metal tubes / bellows"** | **[P]** [brochure](https://jindalmetal.com/images/iup-brochure.pdf), [facilities](https://www.indiamart.com/iup-jindal-metals/infrastructure-and-facilities.html) |
+| **Quality Foils (India) Ltd** | **Hisar, Haryana** | Cold rolling since **1982**; thickness **0.10–4.00 mm**, width **20–710 mm**, slit edge from 5.0 mm; grades 301, 304/L, 316L, 321, J4, 200 series in 2H/2R/2B; **published thickness tolerance ±0.020 mm at 0.10 mm**; ISO 9001 (TÜV SÜD); BIS IS 6911 licence. **Product listing explicitly includes "Metallic Bellows" and "Bellows for precision measuring instruments"**. Group also makes stainless flexible hose and tube | **[P]** [about](https://www.qualitygroup.in/qualityfoils/about-us/), [products](https://www.qualitygroup.in/qualityfoils/products/), [Kompass](https://www.kompass.com/z/ww/c/quality-foils-india-private-limited/in756895/) |
 | **Jindal Stainless — Hisar SPD** | **Hisar, Haryana** | 84,000 tpa precision strip, dedicated precision slitters, to 0.076 mm, up to 650 mm width — but **martensitic razor-blade oriented** | **[P]** [brochure](https://www.jindalstainless.com/product-brochure/) |
 | **Hisar Metal Industries Ltd** | **Hisar, Haryana** | Thin stainless steel strip | **[U]** [directory](https://www.grotal.com/Delhi/Precision-Stainless-Steel-Strip-Manufacturers-C44/) |
 | **Singhal Strips Ltd** | **Hisar, Haryana** | Cold rolled stainless strip and coil | **[U]** same |
@@ -150,17 +203,19 @@ Stated with confidence levels, since none of this is yet confirmed by data purch
 
 | Question | Assessment | Confidence |
 | --- | --- | --- |
-| Where does AM350 and PH-grade thin foil come from? | **Imported — no Indian source exists.** Most likely Ulbrich or UPM (US), TOKKIN or another Japanese re-roller, Alleima (Sweden), or a Chinese re-roller on price-driven work | **High** on "imported"; **Medium** on the specific names |
-| Where does austenitic 304L/316L/321 thin strip come from? | **Mixed.** IUP Jindal, Quality Foils, Hisar Metal, Singhal Strips domestically; imports where gauge, consistency or grade is beyond them | **Medium–High** |
-| Do they buy direct from mills or through stockists? | **Probably through stockists and traders**, given small volumes against mill MOQs | **Medium** |
-| Is any of it bought from Jindal Stainless today? | **Probably not for thin bellows work.** Jindal SPD is martensitic razor-blade oriented, and the austenitic thin-gauge bellows grades are not its focus | **Medium** |
-| Who is the competitor to displace? | **Alleima in India, and Ulbrich / UPM / TOKKIN globally** | **Medium–High** |
-| Is there an obvious commercial wedge? | **Yes — minimum order quantity and lead time, before price.** Small-lot access to qualified material is a trading-house strength and needs no new manufacturing | **Medium**, pending customer confirmation |
+| Where does AM350 and PH-grade thin foil come from? | **Imported — confirmed, no Indian mill publishes these grades.** Named candidate sources: Ulbrich, United Performance Metals and ATI (US); **Lamineries Matthey (Switzerland)**, which publishes AM350 strip in coils at 0.010–0.500 mm × 1.5–200 mm with width tolerance +0.2/−0.0 or ±0.1 mm on request; TOKKIN (Japan); Alleima (Sweden); Hempel (UK); plus Chinese re-rollers on price-driven work | **High** on "imported"; **Medium–High** on the candidate list |
+| Where does austenitic 304L/316L/321 thin strip come from? | **Predominantly LOCAL — now confirmed.** IUP Jindal (0.03–1.5 mm, lists "Flexi metal tubes / bellows") and Quality Foils (0.10–4.0 mm, lists "Metallic Bellows"). Imports only where tolerance class or sub-0.10 mm gauge is beyond them | **High** |
+| Do they buy direct from mills or through stockists? | **Largely through stockists and traders** for imported grades. Indian stockists openly list AM350 in strip and foil form — e.g. Aesteiron (Mumbai) quotes UNS S35000 strip prices, indicating a trader channel already exists | **Medium–High** |
+| Is any of it bought from Jindal Stainless today? | **Probably not for thin bellows work.** Jindal SPD is martensitic razor-blade oriented; IUP Jindal (a different Jindal company) is the one actually selling into bellows | **Medium–High** |
+| Who is the competitor to displace? | **On austenitic: IUP Jindal and Quality Foils — both Indian, both already serving bellows.** On PH grades and tight tolerance: Ulbrich, UPM, Matthey, TOKKIN and **Alleima, which has 125 people in Pune** | **High** |
+| Is there an obvious commercial wedge? | **Yes, and it is now sharper: grade plus small-lot access, not slitting precision.** Nobody in India can supply AM350 or 631 thin strip. Nobody serves tens-of-kilograms lots of it. Both problems are trading-house problems, solvable with existing supply relationships | **Medium–High** |
+| What is the price gap Iwatani would work within? | Commodity CR 304 coil lands in India around **US$1.87–2.39/kg**; 0.08 mm Japanese precision foil lands at **US$7.96–8.82/kg**; AM350 strip is quoted upward of **US$10/kg**. Roughly a **4–5x premium** for the precision and PH tiers | **Medium** |
 
 ---
 
 ## 7. Recommended sequence
 
+0. **Call IUP Jindal and Quality Foils first.** They are Indian, they already sell strip into bellows, and they will discuss what they *cannot* supply far more readily than a bellows maker will discuss what it buys. Ask each for their thickness tolerance table and whether they have ever been asked for AM350 or 631. This is the cheapest and fastest way to confirm the whole picture, and it costs two phone calls.
 1. **Buy one year of Indian import data** for HS 7220 and 7219, filtered by the six named bellows makers plus the grade and dimension keywords above. Low cost, decisive.
 2. **Ask Jindal's sales team about Alleima India.** They compete already in razor blades and springs. This intelligence is free and immediately available.
 3. **Ask Jindal why Gillette and Vidyut Metallics import 0.1 mm strip.** It is the closest analogue to the bellows-strip challenge and will surface the real barrier — grade, consistency, or approval history.
