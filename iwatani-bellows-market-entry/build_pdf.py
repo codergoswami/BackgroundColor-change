@@ -33,6 +33,7 @@ DOCS = [
     ("07-research-reconciliation.md", "Research Reconciliation"),
     ("08-supply-chain-sourcing.md", "Supply Chain Sourcing"),
     ("09-market-research-bellows.md", "Bellows Market Research"),
+    ("10-india-market-data.md", "India Market Data"),
 ]
 
 CSS = """
@@ -177,6 +178,15 @@ def build(doc_files, out_name, title, subtitle, contents_note=""):
 
 if __name__ == "__main__":
     only = sys.argv[1] if len(sys.argv) > 1 else None
+
+    if only in (None, "10"):
+        build([("10-india-market-data.md", "India Market Data")],
+              "10-india-market-data.pdf",
+              "India Market Data",
+              "Market size, CAGR, share of world, bottom-up build<br>"
+              "from company filings, and addressable market by segment",
+              " India market size is triangulated from company filings and three "
+              "vendor estimates; no single published India bellows figure exists.")
 
     if only in (None, "09"):
         build([("09-market-research-bellows.md", "Bellows Market Research")],

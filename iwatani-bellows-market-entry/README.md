@@ -19,7 +19,10 @@
 | [`06-source-register.md`](06-source-register.md) | Every source with a URL and a verification grade | Checking any claim in this pack |
 | [`07-research-reconciliation.md`](07-research-reconciliation.md) | Merge of the second research pass: where both passes agree, errors to fix before external use, two newly-found Indian manufacturers, segment-by-segment purchasing logic, the hydrogen insight, and the revised three-rung entry ladder | Read alongside 04 and 05 — it revises conclusions in both |
 | [`08-supply-chain-sourcing.md`](08-supply-chain-sourcing.md) | Where Indian bellows makers buy their precision strip today: grade-tier logic, the domestic mill list, named likely import sources, the Alleima India finding, customs-data method with HS codes, price anchors, and the procurement questions to ask | Displacement planning — who you actually have to beat, and how to confirm it |
-| [`09-market-research-bellows.md`](09-market-research-bellows.md) | **Full market research pack with 10 charts**: global size and the vendor spread, five-year history and projections to 2035, CAGR, segmentation by industry/type/material, regional structure, India's share, and growth drivers ranked by evidence | Numbers and visuals for slides. Includes a "what to quote / never quote" table |
+| [`09-market-research-bellows.md`](09-market-research-bellows.md) | **World market research pack, 10 charts**: global size and the vendor spread, five-year history and projections to 2035, CAGR, segmentation by industry/type/material, regional structure, and growth drivers ranked by evidence | Numbers and visuals for slides. Includes a "what to quote / never quote" table |
+| [`10-india-market-data.md`](10-india-market-data.md) | **India market data, 6 charts**: market size triangulated top-down and bottom-up from MCA company filings, CAGR, share of world, and addressable market by entry-ladder rung | The India numbers. Answers "how big is India and how fast is it growing" |
+
+**PDF versions** are in [`pdf/`](pdf/) — `09-market-research-bellows.pdf`, `10-india-market-data.pdf`, and `Iwatani-Bellows-Full-Pack.pdf` (everything combined). Regenerate with `python3 build_pdf.py`.
 
 ---
 
