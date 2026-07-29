@@ -37,6 +37,7 @@ DOCS = [
     ("11-share-reconciliation.md", "Share Reconciliation"),
     ("12-india-drivers-challenges.md", "India Drivers and Challenges"),
     ("13-deck-number-check.md", "Deck Number Check"),
+    ("14-value-chain-map.md", "Value Chain Map"),
 ]
 
 CSS = """
@@ -181,6 +182,14 @@ def build(doc_files, out_name, title, subtitle, contents_note=""):
 
 if __name__ == "__main__":
     only = sys.argv[1] if len(sys.argv) > 1 else None
+
+    if only in (None, "14"):
+        build([("14-value-chain-map.md", "Value Chain Map")],
+              "14-value-chain-map.pdf",
+              "Metal Bellows<br>Value Chain Map",
+              "Twelve stages from chrome ore to a replacement bellows,<br>"
+              "with players and technical gates at every stage",
+              " Landscape charts are best viewed on screen or printed A3.")
 
     if only in (None, "13"):
         build([("13-deck-number-check.md", "Deck Number Check")],

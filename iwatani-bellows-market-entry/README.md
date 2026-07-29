@@ -27,6 +27,8 @@
 
 | [`13-deck-number-check.md`](13-deck-number-check.md) | **2 charts.** Verification of figures proposed for a client deck, an internally consistent replacement set, suggested slide wording, and the list of withdrawn figures | **Read before any number goes on a slide** |
 
+| [`14-value-chain-map.md`](14-value-chain-map.md) | **3 large landscape charts + full reference table.** Twelve stages from chrome ore to replacement bellows, naming global and Indian players at every stage, with the technical gate at each, plus an indicative margin-by-stage view | The industry structure reference. Use chart 29 for internal approval, 27 with Jindal, 28 with bellows makers |
+
 **PDF versions** are in [`pdf/`](pdf/) — `09-market-research-bellows.pdf`, `10-india-market-data.pdf`, and `Iwatani-Bellows-Full-Pack.pdf` (everything combined). Regenerate with `python3 build_pdf.py`.
 
 ---
