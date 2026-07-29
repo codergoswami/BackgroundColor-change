@@ -264,9 +264,9 @@ def chart15():
     items = [
         ("World metal bellows\n(vendor consensus)", 6.05, GREY),
         ("India mechanical shaft seals\n(FMI)", 5.5, LBLUE),
-        ("India metal bellows\n(6Wresearch)", 6.9, LBLUE),
         ("India expansion joints\n(Persistence)", 8.1, SAFF),
         ("India expansion joints\n(Research and Markets)", 8.3, SAFF),
+        ("India bellows makers, observed\nFY24→FY25 revenue-weighted", 6.5, LBLUE),
         ("India precision bellows makers\n(actual FY24→FY25)", 30.0, GREEN),
     ]
     y = np.arange(len(items))
@@ -290,7 +290,8 @@ def chart15():
              "LEFT: MODELLED. India US\\$50-70m against a global US\\$1.2-2.6bn implies roughly 1.9%-3.5%; 2.7% is the midpoint.\n"
              "Cross-check: Research and Markets states India holds 5-10% of the global EXPANSION JOINTS market specifically — India\n"
              "indexes higher in that lower-value sub-segment than in bellows overall, which is consistent with our reading.\n"
-             "RIGHT: [S] vendor CAGRs, except the final bar which is the observed FY24-FY25 growth of Fluidyne (+37%) and Flexpert\n"
+             "RIGHT: [S] vendor CAGRs, except the two observed bars. NOTE: no published CAGR exists for the India METAL BELLOWS market\n"
+             "specifically - all vendor figures shown are for expansion joints or mechanical seals. The final bar is Fluidyne (+37%) and Flexpert\n"
              "(+23%), shown at their approximate average. Small-base effects apply; treat as directional.",
              fontsize=7.8, color=DGREY, ha="left")
     save(fig, "15-india-vs-world.png")

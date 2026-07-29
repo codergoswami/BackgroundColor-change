@@ -15,13 +15,15 @@ The 4.18% CAGR is **IMARC's** estimate, and two things about it are worth knowin
 | --- | --- | --- |
 | **IMARC** | India expansion joints, 2025–33 | **4.18%** ← the low end |
 | Future Market Insights | India mechanical shaft seals | 5.5% |
-| 6Wresearch | India metal bellows, to 2036 | ~6.9% |
+| ~~6Wresearch~~ | ~~India metal bellows~~ | **withdrawn — no CAGR is published; see [`10`](10-india-market-data.md) §10** |
 | Persistence Market Research | India expansion joints, 2026–33 | **8.1%** |
 | Research and Markets | India expansion joints, 2024–31 | **8.3%** |
 | Observed, FY24→FY25 | Indian bellows makers, revenue-weighted | **6.5%** |
 | Observed, FY24→FY25 | Indian *precision* bellows makers | **+23% to +37%** |
 
 The revenue-weighted **6.5%** actually observed in company filings is the most defensible single figure, and it sits half again above IMARC. If the business case is built on 4.18%, it is being built on the most pessimistic input available. **Recommend planning on 6–8% for the market and noting that the precision segment is growing far faster.**
+
+Note also that **no published CAGR exists for the India metal bellows market specifically** — every vendor figure above is for expansion joints or mechanical seals. A 6.9% figure previously attributed to 6Wresearch has been withdrawn; their public page discloses no market growth rate at all. Full assessment of that source in [`10-india-market-data.md`](10-india-market-data.md) §10.
 
 ---
 

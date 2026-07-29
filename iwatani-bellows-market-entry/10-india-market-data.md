@@ -9,7 +9,7 @@ The India-specific companion to [`09-market-research-bellows.md`](09-market-rese
 | **India bellows / expansion joint market, FY2025** | **US$50–70 m** (≈ ₹435–610 crore) | Top-down and bottom-up converge |
 | **India share of global bellows market** | **~2.7%** (range 1.9–3.5%) | Modelled |
 | **India share of global *expansion joints* market** | **1–5%** ⚠️ *corrected* | See [`11-share-reconciliation.md`](11-share-reconciliation.md) |
-| **India CAGR — vendor consensus** | **6.9–8.3%** | 6Wresearch, Persistence, Research and Markets |
+| **India CAGR — highest published estimates** | **8.1–8.3%** | Persistence, Research and Markets (expansion joints) |
 | **India CAGR — conservative view** | **4.2–5.5%** | IMARC, Future Market Insights |
 | **India CAGR — observed at precision specialists, FY24→FY25** | **+23% to +37%** | MCA-derived company filings |
 | **World CAGR for comparison** | 5.2–6.9% | Vendor consensus |
@@ -26,7 +26,7 @@ Unlike the world market, India **does** have dedicated published research — bu
 
 | Report | Scope | Available |
 | --- | --- | --- |
-| [6Wresearch — India Metal Bellows Market 2026–2032](https://www.6wresearch.com/industry-report/india-metal-bellows-market) | **Metal bellows, India** | Yes — the only India-specific bellows report found. Headline size is paywalled; import data is disclosed |
+| [6Wresearch — India Metal Bellows Market 2026–2032](https://www.6wresearch.com/industry-report/india-metal-bellows-market) | **Metal bellows, India** | The only India-specific bellows report found. **Market size and CAGR are entirely paywalled — no growth rate is disclosed on the public page.** Only import statistics are visible. See §10 for why we no longer rely on it |
 | [Persistence Market Research — India Expansion Joints](https://www.persistencemarketresearch.com/market-research/india-expansion-joints-market.asp) | Expansion joints | Yes, with figures |
 | [Research and Markets — India Expansion Joint Market](https://www.researchandmarkets.com/report/india-expansion-joint-market) | Expansion joints | Yes, with figures |
 | [IMARC — India Expansion Joints](https://www.imarcgroup.com/india-expansion-joints-market) | Expansion joints | Yes, with figures |
@@ -125,12 +125,14 @@ This is exactly why the recommended entry ladder in [`07-research-reconciliation
 | --- | --- | --- |
 | World metal bellows | 5.2 – 6.9% | Vendor consensus **[S]** |
 | India mechanical shaft seals | **5.5%** | [Future Market Insights](https://www.futuremarketinsights.com/reports/mechanical-shaft-seal-market) **[S]** |
-| India metal bellows | **~6.9%** through 2036 | [6Wresearch](https://www.6wresearch.com/industry-report/india-metal-bellows-market) **[S]** |
+| India metal bellows | **no published figure exists** | 6Wresearch has a report but discloses no CAGR publicly — see §10 |
 | India expansion joints | **8.1%** (2026–33) | Persistence **[S]** |
 | India expansion joints | **8.3%** (2024–31) | Research and Markets **[S]** |
 | India expansion joints | 4.18% (2025–33) | IMARC **[S]** |
 
-**Reasonable conclusion: India grows at roughly 7–8% against a world rate of 6%** — a modest premium, not a dramatic one. Anyone promising India will grow at 20%+ is not supported by this data at the market level.
+**Reasonable conclusion: India grows at roughly 6–8% against a world rate of 6%** — a modest premium, not a dramatic one. The single most defensible figure is the **6.5% revenue-weighted growth actually observed in company filings** (section 6), because it is measured rather than modelled. Anyone promising India will grow at 20%+ is not supported by this data at the market level.
+
+> **Note:** there is **no publicly available CAGR for the India metal bellows market specifically.** Every published India figure above is for expansion joints or mechanical seals. This is why the observed company-filing growth rate carries so much weight here.
 
 ---
 
@@ -187,7 +189,7 @@ That is a real business for a trading division, but it is **not** a business tha
 
 ## 8. One more India-specific data point worth having
 
-6Wresearch discloses India's **metal bellows import** dynamics without paywalling them:
+6Wresearch discloses India's **metal bellows import** dynamics on its public page without paywalling them:
 
 - Import market dominated by **China, Vietnam, Germany, South Korea and the USA**
 - **High Herfindahl-Hirschman Index** — a concentrated supplier base
@@ -198,7 +200,52 @@ Source: [6Wresearch India Metal Bellows Market](https://www.6wresearch.com/indus
 
 Two readings, and they point in opposite directions. The 20.72% import CAGR says Indian bellows demand has been growing fast and being met from abroad — supportive of the localisation thesis. The −50.82% single-year collapse says either a large one-off project ended, or domestic substitution happened abruptly, or the underlying data is thin enough that one shipment moves the series. **At the volumes involved, the third explanation is quite likely.** This is worth resolving with actual customs data, which is the method set out in [`08-supply-chain-sourcing.md`](08-supply-chain-sourcing.md) §4.
 
+**These import figures are the only quantitative content 6Wresearch publishes on this market.** Everything else — market size, forecast, CAGR, segment splits — sits behind the paywall. See §10.
+
 ---
+
+## 10. Correction and assessment of the 6Wresearch source
+
+⚠️ **An earlier version of this file cited "~6.9% CAGR through 2036" for the India metal bellows market and attributed it to 6Wresearch. That attribution was wrong and the figure is withdrawn.**
+
+The 6Wresearch public page for the India Metal Bellows Market contains **no market CAGR of any kind.** The only compound growth rate on the page is the **20.72% import CAGR (2020–2024)**, which describes import volumes, not the market. There was also a tell that should have been caught earlier: the withdrawn figure carried a **2036** horizon, while 6Wresearch's report is titled and scoped **2026–2032**. Those cannot be the same source.
+
+### What the 6Wresearch page actually discloses
+
+| Item | Detail |
+| --- | --- |
+| Report title | India Metal Bellows Market (2026–2032) |
+| Product code | ETC7547635 |
+| Published / updated | September 2024 / April 2026 |
+| Length | 75 pages, 35 figures, 20 tables |
+| Author | Dhaval Chaurasia |
+| Pricing | **US$1,995** single user · US$2,400 department · US$3,120 site · US$3,795 global |
+| Segmentation by type | Formed, Mechanically Formed, Hydroformed, Electroformed, **Edge Welded**, Others |
+| Segmentation by end-use | **Semiconductor, Actuators, Beamlines, Connectors, Leak Detectors, Sensors, Wafer Handlers**, Others |
+| Disclosed data | Top-5 importing countries, HHI concentration, import CAGR 20.72% (2020–24), −50.82% (2023–24) |
+| Listed drivers | Automotive/aerospace/electronics demand; precision engineering adoption; favourable government policy for domestic manufacturing |
+| Listed restraints | Fluctuating raw material prices; competition from global and local players compressing margins; **lack of skilled labour and expertise for specialised bellows manufacturing** |
+| **Paywalled** | Market size 2025, forecast 2032, revenues and volumes 2022–2032, all type and end-use splits, company shares, price trends |
+
+### Why I would not spend the US$1,995
+
+Three signals suggest this is a programmatically generated report rather than primary research:
+
+1. **The end-use taxonomy is not an India taxonomy.** Segmenting the *Indian* bellows market by "Semiconductor, Actuators, Beamlines, Connectors, Leak Detectors, Sensors, Wafer Handlers" is the standard *global semiconductor* bellows application list — it matches the published application lists of Technetics and KSM almost word for word. It bears no relation to what India actually consumes, which is expansion joints, mechanical seal bellows and automotive decouplers. India's semiconductor bellows market is on the order of US$1–5m (see §7); building the whole end-use segmentation around it indicates a template applied to a country name.
+2. **The same publisher offers country-level bellows reports for Cuba, Cyprus, Croatia and Costa Rica**, and its "latest reports" list includes country-by-country studies of a rare metabolic disorder market for Fiji, Gabon and Eritrea. That publication pattern is only achievable by automation.
+3. **The one thing they do disclose is trade data**, which is machine-ingestible from customs statistics — consistent with an automated pipeline.
+
+**Recommendation:** treat the import statistics as usable-with-caution **[S]**, ignore the market sizing, and do not buy the report. **US$1,995 spent on actual Indian customs shipment records would produce far more decision-relevant information** — specifically, who is importing what grade, at what price, from whom. That method is set out in [`08-supply-chain-sourcing.md`](08-supply-chain-sourcing.md) §4.
+
+### Net effect on this pack
+
+| Conclusion | Effect |
+| --- | --- |
+| India market size US$50–70m | **Unchanged** — derived from company filings and three expansion-joint vendors, never from 6Wresearch |
+| India share of global ~2.7% | **Unchanged** |
+| India CAGR | **Range tightens and honesty improves.** Published India estimates are now 4.18% (IMARC), 5.5% (FMI, shaft seals), 8.1% (Persistence) and 8.3% (Research and Markets) — all for adjacent markets. **No published India *bellows* CAGR exists.** The 6.5% observed in company filings remains the best figure |
+| Import CAGR 20.72% / −50.82% collapse | **Unchanged** — still the only 6Wresearch content used, still flagged as volatile |
+| Entry ladder and strategy | **Unchanged** |
 
 ## 9. What to quote on India
 
@@ -207,7 +254,7 @@ Two readings, and they point in opposite directions. The 20.72% import CAGR says
 | India bellows/expansion joint market ≈ US$50–70 m | **Yes, with method** | "Triangulated from company filings and three vendor estimates" |
 | India holds 5–10% of the global expansion joints market | **No — withdrawn** | Fails cross-checking; implies a global market 3–5x below four other vendors. Use "roughly 1–5%" and cite the denominator problem |
 | India expansion joints growing at 8.1–8.3% | **Yes** | Attribute to Persistence / Research and Markets; note IMARC says 4.18% |
-| India bellows CAGR ~6.9% | **Yes, with caveat** | Attribute to 6Wresearch, single source |
+| India bellows CAGR ~6.9% | **No — withdrawn** | This figure was mis-attributed to 6Wresearch, whose public page contains no market CAGR. See §10 |
 | India is ~2.7% of the global bellows market | **Yes, as an estimate** | "Our estimate; no published figure exists" |
 | Witzenmann India ₹249.61 Cr FY2025, +4% | **Yes** | MCA-filed, via TheCompanyCheck |
 | Fluidyne +37%, Flexpert +23% FY24→FY25 | **Yes, with caveat** | Note small-base effects and single-year limitation |
