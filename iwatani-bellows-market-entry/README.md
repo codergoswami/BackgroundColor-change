@@ -37,6 +37,8 @@
 
 | [`18-slide-source-citations.md`](18-slide-source-citations.md) | Verified citation for every claim on the supply chain map slide, a slide-ready source footer, a per-stage backup table, and three factual corrections | Attach to the slide before it goes to the client |
 
+| [`19-slide-titles.md`](19-slide-titles.md) | Action titles for the bellows-types and competitive-benchmarking slides, scored against consulting title convention, plus a correction to Slide 1's takeaway box | Rewriting slide headings so they carry the insight rather than the topic |
+
 **PDF versions** are in [`pdf/`](pdf/) — `09-market-research-bellows.pdf`, `10-india-market-data.pdf`, and `Iwatani-Bellows-Full-Pack.pdf` (everything combined). Regenerate with `python3 build_pdf.py`.
 
 ---

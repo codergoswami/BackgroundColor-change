@@ -42,6 +42,7 @@ DOCS = [
     ("16-aerospace-defence-driver.md", "Aerospace, Space and Defence Driver"),
     ("17-value-chain-bibliography.md", "Value Chain Bibliography"),
     ("18-slide-source-citations.md", "Slide Source Citations"),
+    ("19-slide-titles.md", "Slide Action Titles"),
 ]
 
 CSS = """
@@ -186,6 +187,14 @@ def build(doc_files, out_name, title, subtitle, contents_note=""):
 
 if __name__ == "__main__":
     only = sys.argv[1] if len(sys.argv) > 1 else None
+
+    if only in (None, "19"):
+        build([("19-slide-titles.md", "Slide Action Titles")],
+              "19-slide-titles.pdf",
+              "Action Titles:<br>Bellows Types &amp; Benchmarking Slides",
+              "Rewritten headings against action-title convention,<br>"
+              "with one technical correction to the Slide 1 takeaway",
+              " Slide 1's takeaway box pairs welded bellows with slit width, which is the property that route cares about least.")
 
     if only in (None, "18"):
         build([("18-slide-source-citations.md", "Slide Source Citations")],
