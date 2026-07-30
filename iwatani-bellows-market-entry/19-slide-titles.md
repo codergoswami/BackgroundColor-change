@@ -142,3 +142,34 @@ Suggested replacement column — **Typical wall / leaf gauge**:
 | **Welded (edge-welded)** | **0.03–1.0 mm**, semiconductor typically **0.05–0.20 mm** | [Valqua](https://www.valqua.com/product_classification/bellows/), [Technetics BELFAB](https://technetics.com/products/belfab-edge-welded-metal-bellows/) **[P]** |
 
 That single column makes the "thinnest gauges" half of the new title verifiable directly from the slide.
+
+---
+
+## Addendum — a third competitive benchmarking slide (Bhastrik / Vallabh Engineers / Flexoweld Industries)
+
+This is a different cut of the benchmarking slide from the one covered above (Well Tech / Metallic Bellows / Fluidyne) — same slide type, different three companies. The same title logic applies, but the underlying content here has a verification gap worth flagging before finalising the title.
+
+### ⚠️ Verification gap: two of the three companies are not independently confirmed
+
+| Company | Verification status |
+| --- | --- |
+| **Bhastrik Mechanical Labs** (Chennai) | **Verified.** [TradeIndia product listing](https://www.tradeindia.com/products/edge-welded-bellows-614236.html) confirms AM350, Hastelloy C-276, Inconel 600/625/718, micro-plasma welding — matches the slide closely. **[U]** grade (directory-sourced, not the company's own site) |
+| **Vallabh Engineers** | **Not independently verified.** Prior research found only a passing mention with "thin public technical documentation," located in **Mumbai** — this slide places them in **Vadodara, Gujarat**. Location, materials (SS304/316, cast iron), industries (pharma, food processing) and bellows types (ANFD) shown here were not confirmed in the research behind this pack |
+| **Flexoweld Industries** | **Not independently verified.** Prior research listed only "Flexoweld Industries / Real Bellows & Engineering, Vadodara" as a long-tail name with no confirmed materials, industries, or technology detail |
+
+**Before this goes to the client:** re-verify Vallabh Engineers' location (Mumbai vs Vadodara is a factual contradiction between what this pack found and what the slide states) and confirm the materials/industries/technology detail for both companies from their own websites, GST/IndiaMART listings, or a direct call. The level of specificity on the slide (exact alloys, named bellows types) is higher than what independent research supports for two of the three rows — the same failure mode flagged earlier with Viraj and Jainex Steel.
+
+### Recommended title, given the actual data pattern
+
+The interesting structural fact in *this* cut is that capability is uneven across the three — only Bhastrik shows an exotic/PH-adjacent alloy (AM350), while Vallabh and Flexoweld show only standard austenitic grades (SS304/316) plus Hastelloy or cast iron — yet all three claim exposure to demanding sectors (semiconductor/UHV appears against Bhastrik and, per the slide, is implied for the other two via "vacuum-adjacent" and general process piping). And the shared conclusion — no in-house slitting — still holds across all three.
+
+> **Alloy capability is concentrated in one player; fabrication breadth is not — but no Indian bellows maker, regardless of technology, secures its own precision strip**
+
+Shorter alternative, matching the register of the first version:
+
+> **India's bellows makers range from advanced-alloy specialists to standard fabricators — but all depend on external suppliers for precision strip**
+
+### Same two footer fixes apply
+
+1. **"External service centers"** should read **"external suppliers — domestic precision-strip mills for austenitic grades, and importers for alloys such as AM350 that no Indian mill produces."**
+2. **"No evidence of..."** is a finding, not a citable fact. Add: *● NRI analysis based on published capability of surveyed manufacturers; two of three companies' detailed capability claims not independently verified — see verification gap above.*
