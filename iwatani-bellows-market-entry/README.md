@@ -33,6 +33,8 @@
 
 | [`16-aerospace-defence-driver.md`](16-aerospace-defence-driver.md) | **4 charts.** Deep dive on the aerospace/space/defence growth driver: quantified defence production and export targets, the space budget capex shift, the AMCA fighter-engine 11-year supplier window, and a named proof point — Fluidyne's documented HAL/ISRO/BARC vendor record | The strongest single evidence-backed driver in the pack — read this before the generic version in file 12 |
 
+| [`17-value-chain-bibliography.md`](17-value-chain-bibliography.md) | Every source used to build the value chain map, **organised by chain stage** (1–12) rather than by topic — companion to file 06 | Answers "where did stage X come from" — use file 06 for "where did claim Y come from" |
+
 **PDF versions** are in [`pdf/`](pdf/) — `09-market-research-bellows.pdf`, `10-india-market-data.pdf`, and `Iwatani-Bellows-Full-Pack.pdf` (everything combined). Regenerate with `python3 build_pdf.py`.
 
 ---

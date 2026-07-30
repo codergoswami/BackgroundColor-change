@@ -40,6 +40,7 @@ DOCS = [
     ("14-value-chain-map.md", "Value Chain Map"),
     ("15-slide-redesign.md", "Slide Redesign"),
     ("16-aerospace-defence-driver.md", "Aerospace, Space and Defence Driver"),
+    ("17-value-chain-bibliography.md", "Value Chain Bibliography"),
 ]
 
 CSS = """
@@ -184,6 +185,14 @@ def build(doc_files, out_name, title, subtitle, contents_note=""):
 
 if __name__ == "__main__":
     only = sys.argv[1] if len(sys.argv) > 1 else None
+
+    if only in (None, "17"):
+        build([("17-value-chain-bibliography.md", "Value Chain Bibliography")],
+              "17-value-chain-bibliography.pdf",
+              "Value Chain Bibliography",
+              "Every website, company page, brochure and filing used to build<br>"
+              "the 12-stage bellows value chain, organised by stage",
+              " Companion to the topic-organised source register in file 06.")
 
     if only in (None, "16"):
         build([("16-aerospace-defence-driver.md", "Aerospace, Space and Defence Driver")],
