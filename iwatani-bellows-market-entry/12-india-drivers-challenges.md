@@ -69,7 +69,7 @@ The National Green Hydrogen Mission carries an outlay of **₹19,744 crore** (�
 
 **8. Import substitution and China+1.** Indian bellows makers are positioning explicitly on this — Well Tech's own marketing reads "far more better quality than China, no quantity restrictions as well, immediate delivery." India's metal bellows imports are concentrated (high HHI) among China, Vietnam, Germany, South Korea and the USA, which is exactly the profile that invites localisation.
 
-**9. Aerospace, space and defence indigenisation.** Fluidyne cites BARC, the Navy and DRDO among its customers and has delivered 100+ aerospace-grade components; Metallic Bellows holds AS9100. Defence indigenisation lists and ISRO's expanding programme both pull in this direction.
+**9. Aerospace, space and defence indigenisation.** ⚠️ **Reframed and upgraded — see [`16-aerospace-defence-driver.md`](16-aerospace-defence-driver.md) for the full treatment.** This was under-ranked here. Defence production has already crossed the halfway mark to a ₹3 lakh crore FY29 target (₹1.78 lakh crore in FY26, +15.6% y/y), exports have grown 56x in a decade to ₹38,424 crore, and 5,012 items sit on Positive Indigenisation Lists mandating domestic sourcing. India's fighter engine programme (AMCA) has just opened an 11-year supplier-qualification window as private industry enters for the first time. Most importantly: **Fluidyne — already a Track A target customer — is a registered vendor to ISRO, HAL, BARC, NPCIL, BEL and BHEL, and has been publicly honoured by HAL Nasik for supplying the LCA Tejas Mk1A programme and won a SIATI award specifically for bellows on frontline trainer aircraft.** This is the only driver in this file with a named, documented company-level case study rather than a policy inference.
 
 **10. Automotive and e-mobility.** The largest unit-volume application. Witzenmann India alone has produced 10 million-plus exhaust decouplers, and EV thermal management is an emerging bellows application. Large but low value per piece and well defended.
 
@@ -85,7 +85,7 @@ The National Green Hydrogen Mission carries an outlay of **₹19,744 crore** (�
 | 6 | Nuclear | **[C]** 8.78→22 GW | Medium — high-spec, low volume |
 | 7 | Water / Jal Jeevan | **[S]** | Medium — seal bellows volume |
 | 8 | Import substitution | **[S/U]** | High — this is the wedge |
-| 9 | Aerospace / defence / space | **[C/P]** | Medium — qualification-heavy |
+| 9→**~2** | Aerospace / defence / space | **[C/P]** — see [`16`](16-aerospace-defence-driver.md) | **High — reframed.** Named company case study (Fluidyne/HAL), quantified targets already 50%+ achieved, defined 11-year AMCA supplier window |
 | 10 | Automotive / EV | **[C]** | Low — defended, low margin |
 
 ---

@@ -31,6 +31,8 @@
 
 | [`15-slide-redesign.md`](15-slide-redesign.md) | **2 drop-in slides.** Critique and redesign of the client-facing supply chain map: two company-name corrections, nine structural fixes, a detailed 16:9 replacement and an executive version | Before the supply chain slide goes to the client |
 
+| [`16-aerospace-defence-driver.md`](16-aerospace-defence-driver.md) | **4 charts.** Deep dive on the aerospace/space/defence growth driver: quantified defence production and export targets, the space budget capex shift, the AMCA fighter-engine 11-year supplier window, and a named proof point — Fluidyne's documented HAL/ISRO/BARC vendor record | The strongest single evidence-backed driver in the pack — read this before the generic version in file 12 |
+
 **PDF versions** are in [`pdf/`](pdf/) — `09-market-research-bellows.pdf`, `10-india-market-data.pdf`, and `Iwatani-Bellows-Full-Pack.pdf` (everything combined). Regenerate with `python3 build_pdf.py`.
 
 ---

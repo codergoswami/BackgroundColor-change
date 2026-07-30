@@ -39,6 +39,7 @@ DOCS = [
     ("13-deck-number-check.md", "Deck Number Check"),
     ("14-value-chain-map.md", "Value Chain Map"),
     ("15-slide-redesign.md", "Slide Redesign"),
+    ("16-aerospace-defence-driver.md", "Aerospace, Space and Defence Driver"),
 ]
 
 CSS = """
@@ -183,6 +184,14 @@ def build(doc_files, out_name, title, subtitle, contents_note=""):
 
 if __name__ == "__main__":
     only = sys.argv[1] if len(sys.argv) > 1 else None
+
+    if only in (None, "16"):
+        build([("16-aerospace-defence-driver.md", "Aerospace, Space and Defence Driver")],
+              "16-aerospace-defence-driver.pdf",
+              "Growth Driver Deep Dive:<br>Aerospace, Space and Defence",
+              "Reframed with quantified government targets and a named<br>"
+              "company case study: Fluidyne's documented HAL/ISRO/BARC track record",
+              " Upgrades this driver from a generic mention to a primary growth thesis with a live proof point.")
 
     if only in (None, "15"):
         build([("15-slide-redesign.md", "Slide Redesign")],
