@@ -41,6 +41,7 @@ DOCS = [
     ("15-slide-redesign.md", "Slide Redesign"),
     ("16-aerospace-defence-driver.md", "Aerospace, Space and Defence Driver"),
     ("17-value-chain-bibliography.md", "Value Chain Bibliography"),
+    ("18-slide-source-citations.md", "Slide Source Citations"),
 ]
 
 CSS = """
@@ -185,6 +186,14 @@ def build(doc_files, out_name, title, subtitle, contents_note=""):
 
 if __name__ == "__main__":
     only = sys.argv[1] if len(sys.argv) > 1 else None
+
+    if only in (None, "18"):
+        build([("18-slide-source-citations.md", "Slide Source Citations")],
+              "18-slide-source-citations.pdf",
+              "Supply Chain Slide:<br>Source Citations",
+              "Verified citation for every claim on the slide, plus a<br>"
+              "slide-ready footer and three corrections",
+              " Two claims on the slide are negative findings that cannot be cited and should be attributed to NRI analysis.")
 
     if only in (None, "17"):
         build([("17-value-chain-bibliography.md", "Value Chain Bibliography")],

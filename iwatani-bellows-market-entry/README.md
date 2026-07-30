@@ -35,6 +35,8 @@
 
 | [`17-value-chain-bibliography.md`](17-value-chain-bibliography.md) | Every source used to build the value chain map, **organised by chain stage** (1–12) rather than by topic — companion to file 06 | Answers "where did stage X come from" — use file 06 for "where did claim Y come from" |
 
+| [`18-slide-source-citations.md`](18-slide-source-citations.md) | Verified citation for every claim on the supply chain map slide, a slide-ready source footer, a per-stage backup table, and three factual corrections | Attach to the slide before it goes to the client |
+
 **PDF versions** are in [`pdf/`](pdf/) — `09-market-research-bellows.pdf`, `10-india-market-data.pdf`, and `Iwatani-Bellows-Full-Pack.pdf` (everything combined). Regenerate with `python3 build_pdf.py`.
 
 ---
