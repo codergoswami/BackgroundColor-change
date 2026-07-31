@@ -5,11 +5,21 @@ India DNA sequencer market model, with focus on **CE (capillary electrophoresis)
 
 ## Contents
 
+**To read or circulate the memo, take one of these two files.** Both are the complete document —
+the memo plus the source data extract as Appendix F.
+
 | File | What it is |
 |---|---|
-| `expert-call-memo.md` | The memo. Ten MECE subject segments, each mapped to the questions we sent, plus five appendices |
-| `source-data-extract.md` | The Excel data as extracted from the shared PDFs, so every figure in the memo is auditable |
-| `build_docx.py` | Generates `Expert-Call-Memo-DNA-Sequencer.docx` from the memo for circulation |
+| **`Expert-Call-Memo-DNA-Sequencer.pdf`** | The memo, ready to read or send. 20 pages |
+| **`Expert-Call-Memo-DNA-Sequencer.docx`** | The same, in Word, if you need to edit it |
+
+Sources, if you want to change the wording and rebuild:
+
+| File | What it is |
+|---|---|
+| `expert-call-memo.md` | The memo text. Ten MECE subject segments, each mapped to the questions we sent, plus appendices A–E |
+| `source-data-extract.md` | The Excel data as extracted from the shared PDFs, so every figure in the memo is auditable. Becomes Appendix F |
+| `build_documents.py` | Rebuilds the PDF and the Word file from the two markdown sources |
 
 ## Structure of the memo
 
@@ -58,9 +68,11 @@ Appendices: **A** question coverage table · **B** additional facts captured bey
    flat out. That explains equipment growing at 10.6% against reagents at 8.0% — but it means the model
    implicitly assumes reagent consumption per installed CE instrument falls about 25% by 2035.
 
-## Reproducing the Word version
+## Rebuilding the PDF and Word file
+
+After editing either markdown file:
 
 ```bash
-pip install python-docx
-python3 build_docx.py
+pip install python-docx fpdf2
+python3 build_documents.py
 ```
